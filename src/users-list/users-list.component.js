@@ -17,7 +17,8 @@ angular
     controllerAs: 'list',
     controller: ['dataService', ds => new UserListController(ds)],
     bindings: {
-      participants: '<'
+      participants: '<',
+      santaClaus: '<'
     }
   });
 
